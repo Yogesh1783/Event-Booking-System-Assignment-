@@ -64,7 +64,7 @@ const LoginPage = () => {
         <Button type="submit" text="Login" />
 
         <div>
-          <p style={{color:"black"}}>Don't have an account? <Link to="/register">Register</Link></p>
+          <p style={{color:"white"}}>Don't have an account? <Link to="/register">Register</Link></p>
         </div>
       </form>
     </div>

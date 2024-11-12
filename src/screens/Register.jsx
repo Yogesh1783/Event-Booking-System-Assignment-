@@ -76,7 +76,7 @@ const Register = () => {
         <Button type="submit" text="Register" />
         
         <div>
-          <p style={{color:"black"}}>Already have an account? <Link to="/login">Login</Link></p>
+          <p style={{color:"white"}}>Already have an account? <Link to="/login">Login</Link></p>
         </div>
       </form>
     </div>
