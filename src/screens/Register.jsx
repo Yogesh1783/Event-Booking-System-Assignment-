@@ -45,6 +45,8 @@ const Register = () => {
 
   return (
     <div className="register">
+            <h1>Event Management System</h1>
+
       <form onSubmit={handleSubmit} className="register-container">
         <h2 className="heading">Register</h2>
         {error && <p className="error">{error}</p>}
@@ -53,14 +55,14 @@ const Register = () => {
           name="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)} 
-          placeholder="Enter your name"
+          placeholder="Username"
           required
         />
         <Input
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)} 
-          placeholder="Enter your email"
+          placeholder="Email"
           required
         />
         <Input
@@ -68,13 +70,13 @@ const Register = () => {
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)} 
-          placeholder="Enter your password"
+          placeholder="Password"
           required
         />
         <Button type="submit" text="Register" />
         
         <div>
-          <p>Already have an account? <Link to="/login">Login</Link></p>
+          <p style={{color:"black"}}>Already have an account? <Link to="/login">Login</Link></p>
         </div>
       </form>
     </div>

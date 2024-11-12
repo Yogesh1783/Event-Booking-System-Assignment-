@@ -33,6 +33,7 @@ const LoginPage = () => {
 
   return (
     <div className="login">
+      <h1>Event Management System</h1>
       <form onSubmit={handleSubmit}>
         <h1>Login</h1>
         
@@ -63,7 +64,7 @@ const LoginPage = () => {
         <Button type="submit" text="Login" />
 
         <div>
-          <p>Don't have an account? <Link to="/register">Register</Link></p>
+          <p style={{color:"black"}}>Don't have an account? <Link to="/register">Register</Link></p>
         </div>
       </form>
     </div>
