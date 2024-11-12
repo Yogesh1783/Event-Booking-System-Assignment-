@@ -1,0 +1,109 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "title": "Music Concert",
+            "description": "An exciting night of live music!",
+            "seatAvailable": 10,
+            "price": 50
+        },
+        {
+            "id": 2,
+            "title": "Art Exhibition",
+            "description": "Explore modern art exhibits.",
+            "seatAvailable": 0,
+            "price": 30
+        },
+        {
+            "id": 3,
+            "title": "Tech Conference",
+            "description": "Meet tech enthusiasts and learn new things.",
+            "seatAvailable": 5,
+            "price": 100
+        },
+        {
+            "id": 4,
+            "title": "Food Festival",
+            "description": "A celebration of the best street food.",
+            "seatAvailable": 20,
+            "price": 25
+        },
+        {
+            "id": 5,
+            "title": "Comedy Show",
+            "description": "A night full of laughter and fun.",
+            "seatAvailable": 15,
+            "price": 40
+        },
+        {
+            "id": 6,
+            "title": "Science Fair",
+            "description": "Discover amazing science exhibits and experiments.",
+            "seatAvailable": 8,
+            "price": 35
+        },
+        {
+            "id": 7,
+            "title": "Yoga Retreat",
+            "description": "Relax and rejuvenate in this peaceful retreat.",
+            "seatAvailable": 12,
+            "price": 150
+        },
+        {
+            "id": 8,
+            "title": "Charity Run",
+            "description": "A 5K run to support a good cause.",
+            "seatAvailable": 50,
+            "price": 20
+        },
+        {
+            "id": 9,
+            "title": "Dance Competition",
+            "description": "Watch the best dancers compete for the top prize.",
+            "seatAvailable": 30,
+            "price": 60
+        },
+        {
+            "id": 10,
+            "title": "Film Screening",
+            "description": "Join us for a screening of the latest indie films.",
+            "seatAvailable": 25,
+            "price": 15
+        },
+        {
+            "id": 11,
+            "title": "Food and Wine Tasting",
+            "description": "Taste the finest wines and gourmet foods.",
+            "seatAvailable": 18,
+            "price": 80
+        },
+        {
+            "id": 12,
+            "title": "Book Launch",
+            "description": "Celebrate the release of a new novel.",
+            "seatAvailable": 10,
+            "price": 20
+        },
+        {
+            "id": 13,
+            "title": "Photography Workshop",
+            "description": "Learn new photography techniques from experts.",
+            "seatAvailable": 6,
+            "price": 70
+        },
+        {
+            "id": 14,
+            "title": "Live Theatre Performance",
+            "description": "A captivating live theatre production.",
+            "seatAvailable": 20,
+            "price": 50
+        },
+        {
+            "id": 15,
+            "title": "Rock Concert",
+            "description": "Experience live rock music from top bands.",
+            "seatAvailable": 25,
+            "price": 60
+        }
+    ]
+}

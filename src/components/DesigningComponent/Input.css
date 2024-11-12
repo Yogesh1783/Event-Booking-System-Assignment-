@@ -1,0 +1,39 @@
+.custom-input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.custom-input.full-width {
+    width: 100%;
+}
+
+.custom-input.medium {
+    width: 50%;
+}
+
+.custom-input.small {
+    width: 30%;
+    padding: 8px;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.custom-input:disabled {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+
+.custom-input::placeholder {
+    color: #999;
+    font-style: italic;
+}

@@ -1,0 +1,26 @@
+.btn-1 {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    max-width: 300px;
+}
+
+.btn-1 h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.btn-1 p {
+    color: #666;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+
+.btn-1 a {
+    text-decoration: none;
+}
