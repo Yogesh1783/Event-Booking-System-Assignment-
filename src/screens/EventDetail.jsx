@@ -35,6 +35,7 @@ const EventDetail = () => {
           <h3>{event.title}</h3>
           <p>{event.description}</p>
           <p>Seats Available: {event.seatAvailable}</p>
+          <p>Price: Rs{event.price}</p> 
           <Button
             text={event.seatAvailable > 0 ? 'Book Ticket' : 'Fully Booked'}
             onClick={handleBookTicket}

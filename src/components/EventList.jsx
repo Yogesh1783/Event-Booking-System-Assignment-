@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { useEvent } from '../context/EventContext';  
+import { useEvent } from '../context/EventContext';
 import EventCard from './EventCard';
 import './EventList.css';
 
@@ -72,12 +72,7 @@ const EventList = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <select value={categoryFilter} onChange={(e) => setCategoryFilter(e.target.value)}>
-          <option value="All">All Categories</option>
-          <option value="Music">Music</option>
-          <option value="Art">Art</option>
-          <option value="Technology">Technology</option>
-        </select>
+        
       </div>
 
       <div className="user-actions">
